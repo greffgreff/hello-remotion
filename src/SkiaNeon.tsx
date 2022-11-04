@@ -1,5 +1,12 @@
 import {SkiaCanvas} from '@remotion/skia';
-import {Paint, Path, Skia} from '@shopify/react-native-skia';
+import {
+	LinearGradient,
+	Paint,
+	Path,
+	Skia,
+	topLeft,
+	topRight,
+} from '@shopify/react-native-skia';
 import {interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 
 const defaultPath =
@@ -48,7 +55,13 @@ export const SkiaNeon: React.FC = () => {
 							strokeCap={'round'}
 							strokeJoin={'round'}
 							color={c}
-						/>
+						>
+							{/* <LinearGradient
+								colors={defaultColors}
+								start={topLeft(path.computeTightBounds())}
+								end={topRight(path.computeTightBounds())}
+							/> */}
+						</Paint>
 					</Path>
 				))}
 			</SkiaCanvas>
