@@ -1,6 +1,6 @@
 # Hello remotion sample 
 
-Simple replicate of the intro animation of [this](https://www.youtube.com/watch?v=EHxEX78alZE&t=475s&ab_channel=WilliamCandillon) Skia tutorial.
+Simple replica of the intro animation of [this](https://www.youtube.com/watch?v=EHxEX78alZE&t=475s&ab_channel=WilliamCandillon) Skia tutorial.
 
 Stepped color effect:
 
